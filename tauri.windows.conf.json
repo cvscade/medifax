@@ -1,7 +1,7 @@
 {
     "build": {
-        "beforeBuildCommand": "cd medifax && run_tailwind.cmd --minify",
-        "beforeDevCommand": "cd medifax && run_tailwind.cmd",
+        "beforeBuildCommand": "run_tailwind.cmd --minify",
+        "beforeDevCommand": "run_tailwind.cmd",
         "devPath": "ui",
         "distDir": "ui"
     },
@@ -27,11 +27,7 @@
         "longDescription": "Project for TISBHacks",
         "windows": {
           "digestAlgorithm": "SHA-256",
-          "allowDowngrades": false,
-          "WebviewInstallMode": {
-            "type": "embedBootstrapper", 
-            "silent": true
-          }
+          "allowDowngrades": false
         }
       },
       "security": {
