@@ -7,7 +7,7 @@ Convenient tool to pull detailed statistics on drugs and their generics from the
 - From [binstall](https://github.com/cargo-bins/cargo-binstall) (for quick, binary installation):
 
 ```
-cargo binstall medifax
+cargo binstall medifax # It will only install the binary in .cargo, it won't be accessible through cargo. You have to add it to your PATH.
 ```
 
 # Compilation
