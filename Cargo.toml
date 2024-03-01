@@ -1,6 +1,11 @@
 [package]
 name = "medifax"
 version = "0.1.0"
+authors = ["Cascade"]
+license = "MIT OR Apache-2.0"
+description = "Convenient tool to pull detailed statistics on drugs and their generics from the openFDA database"
+homepage = "https://github.com/cvscade/tisbhacks"
+repository = "https://github.com/cvscade/tisbhacks"
 edition = "2021"
 
 [dependencies]
