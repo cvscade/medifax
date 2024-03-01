@@ -29,4 +29,4 @@ cargo tauri build
 
 # MSRV
 
-- The Minimum Supported Rust Version for compiling this executable is 1.70.0
+- The Minimum Supported Rust Version for compiling this executable is `1.70.0`
