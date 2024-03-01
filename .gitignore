@@ -2,4 +2,5 @@
 .cargo
 .vscode
 .xwin-cache
+.DS_Store
 node_modules
