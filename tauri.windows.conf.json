@@ -1,0 +1,53 @@
+{
+    "build": {
+        "beforeBuildCommand": "cd medifax && run_tailwind.cmd --minify",
+        "beforeDevCommand": "cd medifax && run_tailwind.cmd",
+        "devPath": "ui",
+        "distDir": "ui"
+    },
+    "package": {
+      "productName": "Medifax",
+      "version": "0.1.0"
+    },
+    "tauri": {
+      "allowlist": {
+        "all": true
+      },
+      "bundle": {
+        "copyright": "Cascade",
+        "externalBin": [],
+        "icon": [
+          "icons/32x32.png",
+          "icons/128x128.png",
+          "icons/128x128@2x.png",
+          "icons/icon.icns",
+          "icons/icon.ico"
+        ],
+        "identifier": "com.medifax.app",
+        "longDescription": "Project for TISBHacks",
+        "windows": {
+          "digestAlgorithm": "SHA-256",
+          "allowDowngrades": false,
+          "WebviewInstallMode": {
+            "type": "embedBootstrapper", 
+            "silent": true
+          }
+        }
+      },
+      "security": {
+        "csp": null
+      },
+      "updater": {
+        "active": false
+      },
+      "windows": [
+        {
+          "fullscreen": false,
+          "height": 600,
+          "resizable": false,
+          "title": "Medifax",
+          "width": 800
+        }
+      ]
+    }
+  }

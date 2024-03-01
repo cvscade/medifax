@@ -1,0 +1,1 @@
+document.getElementsByClassName("logo")[0].addEventListener("animationiteration", function (_) { window.location.replace("home.html"); });

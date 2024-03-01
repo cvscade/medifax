@@ -1,0 +1,7 @@
+.generic-query-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 560px; 
+  width: 800px;
+}

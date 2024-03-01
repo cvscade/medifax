@@ -1,0 +1,14 @@
+.generic-spec {
+    display: inline-block;
+    position: fixed;
+    width: 560px;
+    height: 800px;
+}
+
+.generic-container-positional {
+    align-items: center; 
+    height: 460px; 
+    width: 750px; 
+    margin: 0 auto; 
+    padding-top: 1%;
+}

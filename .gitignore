@@ -1,1 +1,5 @@
 /target
+.cargo
+.vscode
+.xwin-cache
+node_modules
