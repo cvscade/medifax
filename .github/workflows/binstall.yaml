@@ -1,2 +1,0 @@
-- name: Install cargo-binstall    
-  uses: cargo-bins/cargo-binstall@v1.6.3
