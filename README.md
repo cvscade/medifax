@@ -19,6 +19,7 @@ Platform Requirements:
 - **The tauri API is required**
 
 ```
+npm install
 cargo tauri build
 ```
 # Usage
